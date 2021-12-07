@@ -1,0 +1,16 @@
+1. Inicio
+2. centigrados, d[0,n]
+3. kelvin, d[0,n]
+4. farenheit, d[0,n]
+
+5. Escribir "Ingrese los grados centígrados (◦C)"
+6. Lea centigrados
+
+7. Si (centigrados > 0 and centigrados <= 100) entonces
+8. 	farenheit = 9/5 (◦C) + 32
+9. 	kelvin = (◦C) + 273.15
+
+10. Escribir "Los grados Farenheit son: " + farenheit
+11. Escribir "Los grados Kelvin son: " + kelvin
+12. Fin Si
+13. Fin

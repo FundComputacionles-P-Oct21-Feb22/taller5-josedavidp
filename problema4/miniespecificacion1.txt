@@ -1,0 +1,33 @@
+1. Inicio
+2. dias, i[0,n]
+3. precio, d[0,n]
+4. subtotal, d[0,n]
+5. descuento, d[0,n]
+6. total, d[0,n]
+
+7. Escribir "Ingrese los días que se va a hospedar"
+8. Leer dias
+
+9. Escribir "Ingrese el precio diario de la habitación"
+10. Leer precio
+
+11. subtotal = dias * precio
+
+12. Si dias > 5 and dias < 10 entonces
+13. 	descuento = (10 * subtotal)/100
+14.		total = subtotal - descuento
+15. Fin Si
+
+16. Si dias > 10 and dias <=15 entonces
+17. 	descuento = (15 * subtotal)/100
+18.		total = subtotal - descuento
+19. Fin Si
+
+20. Si dias > 15 entonces
+21. 	descuento = (20 * subtotal)/100
+22.		total = subtotal - descuento
+23. Fin Si
+24. Escribir "El subtotal es: " + subtotal
+25. Escribir "El descuento es: " + descuento
+26. Escribir "El total por pagar es: " + total
+27. Fin

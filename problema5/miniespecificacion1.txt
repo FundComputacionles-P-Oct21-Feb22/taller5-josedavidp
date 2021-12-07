@@ -1,0 +1,38 @@
+1. Inicio
+2. totalAgua, d[0,n]
+3. totalTelefono, d[0,n]
+4. total, d[0,n]
+5. descuento, d[0,n]
+6. numeroLitros, d[0,n]
+7. costoLitros, d[0,n]
+8. numeroMinutos, d[0,n]
+9. costoMinutos, d[0,n]
+10. edad, i[0,n]
+
+11. Escribir "Ingrese su edad"
+12. Leer edad
+
+13. Escribir "Ingrese el número de litros gastados en el mes"
+14. Leer numeroLitros
+
+15. Escribir "Ingrese el costo de cada litro de agua"
+16. Leer costoLitros
+
+17. Escribir "Ingrese el número de minutos gastados en el mes"
+18. Leer numeroMinutos
+
+19. Escribir "Ingrese el costo de cada minuto por mes"
+20. Leer costoMinutos
+
+21. totalAgua <-- numeroLitros * costoLitros
+22. totalTelefono <-- numeroMinutos * costoMinutos
+
+23. Si edad < 20 entonces
+24. 	descuento = (20 * total)/100
+25. 	totalAgua = (totalAgua - descuento)
+26. 	totalTelefono = (totalTelefono - descuento)
+27. Fin Si
+
+28. Escribir "Valor total mensual a pagar del agua es de: " + totalAgua
+29. Escribir "Valor total mensual a pagar del teléfono es de: " + totalTelefono
+30. Fin
